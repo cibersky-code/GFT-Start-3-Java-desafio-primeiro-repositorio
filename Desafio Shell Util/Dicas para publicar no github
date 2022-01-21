@@ -1,0 +1,59 @@
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio$ git clone git@github.com:cibersky-code/GFT-Start-3-Java-desafio-primeiro-repositorio.git
+Cloning into 'GFT-Start-3-Java-desafio-primeiro-repositorio'...
+Enter passphrase for key '/home/bruno/.ssh/id_ed25519': 
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 12 (delta 3), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), done.
+Resolving deltas: 100% (3/3), done.
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio$ cd GFT-Start-3-Java-desafio-primeiro-repositorio/
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio/GFT-Start-3-Java-desafio-prime
+iro-repositorio$ 
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio/GFT-Start-3-Java-desafio-prime
+iro-repositorio$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio/GFT-Start-3-Java-desafio-prime
+iro-repositorio$ git add *
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio/GFT-Start-3-Java-desafio-prime
+iro-repositorio$ git status
+No ramo main
+Your branch is up to date with 'origin/main'.
+
+Mudanças a serem submetidas:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio/GFT-Start-3-Java-desafio-prime
+iro-repositorio$ git commit -m "Edição do readme.md"
+[main 3a0e0e8] Edição do readme.md
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio/GFT-Start-3-Java-desafio-prime
+iro-repositorio$ git status
+No ramo main
+Seu ramo está à frente de 'origin/main' por 1 submissão.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio/GFT-Start-3-Java-desafio-prime
+iro-repositorio$ git push origin main 
+Enter passphrase for key '/home/bruno/.ssh/id_ed25519': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:cibersky-code/GFT-Start-3-Java-desafio-primeiro-repositorio.git
+   20a10a4..3a0e0e8  main -> main
+bruno@Bru:~/Área de Trabalho/worksapace/curso dio/GFT-Start-3-Java-desafio-prime
+iro-repositorio$ 
