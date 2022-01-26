@@ -1,6 +1,8 @@
+package com.dio;
 //exemplo de exercicio
 
-public class Primeiro {
+public class Aula1 {
+
     public static void main(String[] args) {
     int i;
     int I;
